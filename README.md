@@ -27,4 +27,19 @@ The CSV file contains nine columns containing the following information:
 
 **site:** Location where the stamp was found.
 
+## Notebooks
+The R notebooks used to generate the data analysis figures are stored in this repository.
+
+Each notebook reproduces one figures, numbered in the same way as in the publication.
+
+Each notebook is structured in the same way:
+
+Import packages
+
+Read in data
+
+Data analysis
+
+Plot the graphs
+
 **bibref:** The publication the stamp is recored in (if not included in the RGZM database).
