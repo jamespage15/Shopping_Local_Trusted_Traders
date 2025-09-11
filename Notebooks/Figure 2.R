@@ -1,4 +1,4 @@
-#### Heatmaps for Assemblage Similarity ####
+#### Figure 2 ####
 
 #### Packages ####
 library(dplyr)
@@ -37,4 +37,5 @@ ggplot(data = northernstamps2, aes(Var1, Var2, fill = value, label=round(value, 
   theme(axis.text.x = element_text(angle = 45, vjust = 1, 
                                    size = 12, hjust = 1))+
   coord_fixed()+ labs(title="", x="", y="") + geom_text(color="black", size=1)
+
 
