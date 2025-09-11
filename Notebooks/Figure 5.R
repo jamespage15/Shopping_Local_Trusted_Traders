@@ -1,3 +1,5 @@
+#### Figure 5 ####
+
 
 #### Packages ####
 
@@ -78,3 +80,4 @@ p2 <- ggplot(unstampedNITS_steps,aes(x=DAT_step, colour=variable)) + geom_densit
 
 Aoristic  <- (p1)/(p2)
 Aoristic 
+
