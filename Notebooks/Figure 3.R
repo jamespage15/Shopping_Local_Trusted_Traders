@@ -1,4 +1,4 @@
-#### Figure 2 ####
+#### Figure 3 ####
 
 
 #### Packages ####
@@ -38,4 +38,5 @@ ggplot(ggd1, horiz = TRUE) +
   theme_bw() + 
   theme(axis.text.y = element_blank(),  
         axis.ticks.y = element_blank(), 
+
         plot.margin = margin(t = 10, r = 10, b = 10, l = 20)) 
